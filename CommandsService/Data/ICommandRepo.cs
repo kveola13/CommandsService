@@ -1,6 +1,7 @@
 ﻿namespace CommandsService.Data
 {
-    public class ICommandRepo
+    public interface ICommandRepo
     {
+        bool SaveChanges();
     }
 }
